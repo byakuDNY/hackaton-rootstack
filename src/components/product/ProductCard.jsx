@@ -11,7 +11,7 @@ const ProductCard = ({ product }) => {
       />
       <div className="px-6 py-4">
         <div className="font-bold text-xl mb-2">{product.name}</div>
-        <p className="text-gray-700 text-base">${product.price.toFixed(2)}</p>
+        <p className="text-gray-700 text-base">${product.price.toFixed(2)} x lb</p>
       </div>
       <div className="px-6 py-4">
         <Link to={`/product/${product.id}`}>
