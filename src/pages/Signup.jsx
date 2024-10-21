@@ -31,14 +31,14 @@ const Signup = () => {
   return (
     <div>
       <div>
-        <h1 className="text-6xl text-center p-10 font-extrabold text-white font-outline-2">
+        <h1 className="text-6xl text-center p-10 font-extrabold  font-outline-2">
           Registro
         </h1>
         <div className="flex justify-center items-center flex-col">
           <form onSubmit={handleSignUp} className="sm:w-1/3 p-4 mt-10">
             <div className="mb-6">
               <label
-                className="block text-white font-outline-2 text-xl font-extrabold mb-2"
+                className="block  font-outline-2 text-xl font-extrabold mb-2"
                 htmlFor="username"
               >
                 Nombre de usuario
@@ -63,7 +63,7 @@ const Signup = () => {
             </div>
             <div className="mb-6">
               <label
-                className="block text-white font-outline-2 text-xl font-extrabold mb-2"
+                className="block  font-outline-2 text-xl font-extrabold mb-2"
                 htmlFor="password"
               >
                 Contraseña
@@ -88,7 +88,7 @@ const Signup = () => {
             </div>
             <div className="mb-6">
               <label
-                className="block text-white font-outline-2 text-xl font-extrabold mb-2"
+                className="block  font-outline-2 text-xl font-extrabold mb-2"
                 htmlFor="confirmPassword"
               >
                 Confirmar Contraseña
@@ -113,7 +113,7 @@ const Signup = () => {
             </div>
             <div className="flex justify-center">
               <button
-                className="bg-amber-500 hover:bg-amber-600 text-white text-2xl font-extrabold py-2 px-4 rounded font-outline-2 focus:outline-white"
+                className="bg-amber-500 hover:bg-amber-600  text-2xl font-extrabold py-2 px-4 rounded font-outline-2 focus:outline-white"
                 type="submit"
               >
                 CREAR CUENTA
@@ -122,7 +122,7 @@ const Signup = () => {
           </form>
           <div className="pt-5">
             <Link
-              className="text-white text-xl font-extrabold py-2 px-4 hover:text-gray-200 font-outline-2 focus:outline-white"
+              className=" text-xl font-extrabold py-2 px-4 hover:text-gray-200 font-outline-2 focus:outline-white"
               to={"/login"}
             >
               Iniciar Sesión
