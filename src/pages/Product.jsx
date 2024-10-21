@@ -1,5 +1,6 @@
 import React from "react";
-import ProductSlider from "../../components/product/ProductSlider";
+import ProductSlider from "../components/product/ProductSlider";
+import PurchaseBanner from "../components/product/PurchaseBanner";
 const Product = () => {
   const images = [
     "/images/papaya1.jpeg",
@@ -9,9 +10,12 @@ const Product = () => {
   ]
   return (
     <div>
-      <div className="">
-        <p>hola</p>
+      <div className="flex justify-between">
         <ProductSlider images={images}/>
+        <div>
+          <h1>Papaya </h1>
+        </div>
+        <PurchaseBanner/>
       </div>
     </div>
   )
