@@ -31,7 +31,7 @@ const PurchaseBanner = ({ product }) => {
                     value={cantidad}
                     onChange={handleCantidadChange}
                 />
-                <button className="bg-blue-500 text-white rounded-lg px-4 py-2 hover:bg-blue-600 transition duration-200">
+                <button className="bg-yellow-500 text-green-900 rounded-lg px-4 py-2 hover:bg-yellow-400 transition duration-200">
                     Agregar al carrito
                 </button>
             </form>

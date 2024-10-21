@@ -6,6 +6,12 @@ const Home = () => {
       <Navbar />
       <main>
         <h1>Home</h1>
+        <div>
+
+        </div>
+        <div>
+          
+        </div>
       </main>
       
     </div>

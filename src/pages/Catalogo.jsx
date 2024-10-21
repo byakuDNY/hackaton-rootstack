@@ -4,22 +4,24 @@ import ProductCard from '../components/product/ProductCard';
 const Catalogo = () => {
   const [products, setProducts] = useState([]);
 
-  useEffect(() => {
-    const fetchProducts = async () => {
-      try {
-        const response = await fetch('/productos.json');
-        const data = await response.json();
-        setProducts(data);
-      } catch (error) {
-        console.error('Error fetching products:', error);
-      }
-    };
+useEffect(() => {
+  const fetchProducts = async () => {
+    try {
+      const response = await fetch('/productos.json');
+      const data = await response.json();
+      const productosAleatorios = data.sort(() => 0.5 - Math.random()).slice(0, 5);
+      setProducts(productosAleatorios);
+    } catch (error) {
+      console.error('Error obteniendo productos:', error);
+    }
+  };
 
-    fetchProducts();
-  }, []);
+  fetchProducts();
+}, []);
+
 
   return (
-    <div className="flex flex-wrap justify-center p-4">
+    <div className="flex flex-wrap gap-x-5 gap-y-5 justify-center p-4">
       {products.map(product => (
         <ProductCard key={product.id} product={product} />
       ))}

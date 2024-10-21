@@ -23,10 +23,10 @@ const Product = () => {
         if (product) {
           setProductDetails(product);
         } else {
-          setError("Product not found");
+          setError("Producto no encontrado");
         }
       } catch (err) {
-        setError("Failed to fetch product details");
+        setError("Detalles no encotrados");
       } finally {
         setLoading(false);
       }

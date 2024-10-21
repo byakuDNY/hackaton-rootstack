@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const ProductCard = ({ product }) => {
   return (
-    <div className="max-w-sm rounded overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-200">
+    <div className="w-48 rounded overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-200">
       <img
         src={product.images[0]}
         alt={product.name}
