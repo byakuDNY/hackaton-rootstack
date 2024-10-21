@@ -47,11 +47,7 @@ const Login = () => {
                 Nombre de usuario
               </label>
               <div className="flex items-center focus-within:text-gray-700">
-                <img
-                  src="user-icon.svg"
-                  alt="user-icon"
-                  className="absolute w-5 h-5"
-                />
+                <img src="user-icon.svg" alt="user-icon" className=" w-5 h-5" />
                 <input
                   id="usuario"
                   type="text"
@@ -70,11 +66,7 @@ const Login = () => {
                 Contraseña
               </label>
               <div className="flex items-center text-gray-900 focus-within:text-gray-700">
-                <img
-                  src="lock-icon.svg"
-                  alt="user-icon"
-                  className="absolute w-6 h-6"
-                />
+                <img src="lock-icon.svg" alt="user-icon" className=" w-6 h-6" />
                 <input
                   id="contraseña"
                   type="password"
