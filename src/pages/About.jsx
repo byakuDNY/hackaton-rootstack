@@ -13,7 +13,7 @@ const About = () => {
           <div><p className='text-lg m-2'>
             Edad: 21<br />
             Numero telefonico: 6520-0235<br />
-            Correo electronico: <br />
+            Correo: <br />
             Cualidades: <br />
             Conocimientos: <br />
 
@@ -25,7 +25,7 @@ const About = () => {
           <div><p className='text-lg m-2'>
             Edad: 21<br />
             Numero telefonico: 6740-5585<br />
-            Correo electronico: <br />
+            Correo: <br />
             Cualidades: <br />
             Conocimientos: <br />
 
@@ -37,7 +37,7 @@ const About = () => {
           <div><p className='text-lg m-2'>
             Edad: 20<br />
             Numero telefonico: 6549-8261<br />
-            Correo electronico: carlosavilesia@gmal.com<br />
+            Correo: carlosavilesia@gmal.com<br />
             Cualidades: <br />
             Conocimientos: <br />
 
