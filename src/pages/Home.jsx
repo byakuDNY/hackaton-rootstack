@@ -1,5 +1,4 @@
 import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -8,7 +7,7 @@ const Home = () => {
       <main>
         <h1>Home</h1>
       </main>
-      <Footer />
+      
     </div>
   );
 };
