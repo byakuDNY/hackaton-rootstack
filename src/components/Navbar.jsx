@@ -11,9 +11,9 @@ const navbar = () => {
       </div>
 
       <div className="flex flex-row flex-nowrap items-center mr-10">
-        <a className="my-2 mx-2 bg-sky-700 px-3 py-1 rounded-md" href="/">Inicio</a>
-        <a className="my-2 mx-2 bg-sky-700 px-3 py-1 rounded-md" href="/about">Nosotros</a>
-        <a className="my-2 mx-2 bg-sky-700 px-3 py-1 rounded-md" href="/contact">Contacto</a>
+        <a className="my-2 mx-2 bg-sky-700 px-3 py-1 rounded-md transition duration-300 ease-in-out transform hover:bg-cyan-400 hover:scale-105 active:scale-95" href="/">Inicio</a>
+        <a className="my-2 mx-2 bg-sky-700 px-3 py-1 rounded-md transition duration-300 ease-in-out transform hover:bg-cyan-400 hover:scale-105 active:scale-95" href="/about">Nosotros</a>
+        <a className="my-2 mx-2 bg-sky-700 px-3 py-1 rounded-md transition duration-300 ease-in-out transform hover:bg-cyan-400 hover:scale-105 active:scale-95" href="/contact">Contacto</a>
       </div>
     
     </nav>
