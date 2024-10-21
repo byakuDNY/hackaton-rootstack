@@ -5,6 +5,7 @@ import Signup from "./pages/Signup";
 import Login from "./pages/Login";
 import { Toaster } from "react-hot-toast";
 import Catalogo from "./pages/Catalogo";
+import About from "./pages/About";
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/product/:id" element={<Product />} />
         <Route path="/catalogo" element={<Catalogo />} />
+        <Route path="/about" element={<About/>}/>
       </Routes>
       <Toaster />
     </BrowserRouter>
