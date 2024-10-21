@@ -26,7 +26,7 @@ const ProductSlider = ({images}) => {
             <img
               src={image}
               alt={`Slide ${index + 1}`}
-              className="w-full bg-cover h-72"
+              className="w-full bg-cover h-72 rounded-3xl"
             />
           </div>
         ))}

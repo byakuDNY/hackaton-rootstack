@@ -14,7 +14,7 @@ const PurchaseBanner = ({ product }) => {
     return (
         <div className="p-4 bg-white shadow rounded-lg">
             <p className="text-2xl font-bold mb-4">
-                US$ <span className="text-green-500">{precio.toFixed(2)}</span>
+                US$ <span className="text-green-500">{precio.toFixed(2)}</span> x lb
             </p>
             <p className="text-gray-600 mb-4">
                 Entrega el miércoles, 30 de octubre

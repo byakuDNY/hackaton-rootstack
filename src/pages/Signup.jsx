@@ -1,6 +1,7 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
+import { useAuthContext } from "../AuthContext";
 
 const Signup = () => {
   const [inputs, setInputs] = useState({
@@ -8,6 +9,8 @@ const Signup = () => {
     password: "",
     confirmPassword: "",
   });
+  const navigate = useNavigate();
+  const { setUserAccounts } = useAuthContext();
 
   const handleSignUp = async (e) => {
     e.preventDefault();
@@ -26,6 +29,15 @@ const Signup = () => {
       toast.error("La contraseña debe tener al menos 6 caracteres");
       return;
     }
+
+    toast.success("Usuario registrado exitosamente");
+    setInputs({ username: "", password: "", confirmPassword: "" });
+    setUserAccounts((prevAccounts) => [
+      ...prevAccounts,
+      { username: inputs.username, password: inputs.password },
+    ]);
+
+    navigate("/login");
   };
 
   return (

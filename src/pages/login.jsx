@@ -1,30 +1,34 @@
-// import bgMusicAuth from "../assets/bg-music-auth.mp3";
-// import { useState } from "react";
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { toast } from "react-hot-toast";
-// import { useAuthContext } from "../AuthContext";
-// import { VITE_BACKEND_URL } from "./Homepage";
+import { useAuthContext } from "../AuthContext";
 
 const Login = () => {
-  const [username] = useState("hackaton");
+  const [username, setusername] = useState("");
+  const [password, setPassword] = useState("");
+  const { setAuthUser, userAccounts } = useAuthContext();
 
-  const [password, setPassword] = useState("hackaton123");
-  //   const [loading, setLoading] = useState(false);
-  //   const { setAuthUser } = useAuthContext();
+  const navigate = useNavigate();
 
   const handleLogin = async (e) => {
     e.preventDefault();
-
     if (!username || !password) {
       toast.error("Por favor llena todos los campos");
       return;
     }
-
-    if (password.length < 6) {
-      toast.error("La contraseña debe tener al menos 6 caracteres");
+    const user = userAccounts.find(
+      (account) =>
+        account.username === username && account.password === password
+    );
+    if (!user) {
+      toast.error("Credenciales inválidas");
       return;
     }
+    toast.success(`Bienvenido ${username}`);
+    localStorage.setItem("token", JSON.stringify({ username }));
+    setAuthUser({ username });
+
+    navigate("/");
   };
 
   return (
@@ -54,7 +58,7 @@ const Login = () => {
                   placeholder="Escribe tu nombre de Usuario"
                   className="w-full py-2 pl-10 pr-3 bg-transparent border-b border-white focus:outline-none"
                   value={username}
-                  // onChange={(e) => setusername(e.target.value)}
+                  onChange={(e) => setusername(e.target.value)}
                 />
               </div>
             </div>
