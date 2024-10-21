@@ -10,9 +10,9 @@ const Product = () => {
   ]
   return (
     <div>
-      <div className="flex justify-between">
+      <div className="flex justify-between max-w-[80%]">
         <ProductSlider images={images}/>
-        <div>
+        <div className="w-80">
           <h1>Papaya </h1>
         </div>
         <PurchaseBanner/>
