@@ -1,0 +1,417 @@
+[
+    {
+        "id": 1,
+        "name": "Papaya",
+        "price": 3.50,
+        "images": [
+            "/images/papaya1.jpeg",
+            "/images/papaya2.webp",
+            "/images/papaya3.jpg",
+            "/images/papaya4.jpeg"
+        ],
+        "farmer": "Juan Pérez",
+        "farm": "Finca del Sol",
+        "harvestDate": "2024-01-05",
+        "status": "Cosechado",
+        "contact": "1234-5678",
+        "location": "https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3207.081852669632!2d-82.2890094655514!3d8.38417925929482!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2spa!4v1729497137669!5m2!1sen!2spa"
+    },
+    {
+        "id": 2,
+        "name": "Tomate",
+        "price": 2.50,
+        "images": [
+            "/images/tomate1.webp",
+            "/images/tomate2.webp",
+            "/images/tomate3.jpg"
+        ],
+        "farmer": "María González",
+        "farm": "Finca Buenaventura",
+        "harvestDate": "2024-01-10",
+        "status": "Cosechado",
+        "contact": "9876-5432",
+        "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d900.1731015385491!2d-80.83136980578566!3d8.290270155010546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fae79e1c504b0ab%3A0xb839b116a96d0404!2sFinca%20Buenaventura!5e1!3m2!1sen!2spa!4v1729499041094!5m2!1sen!2spa"
+    },
+    {
+        "id": 3,
+        "name": "Lechuga",
+        "price": 1.75,
+        "images": [
+            "/images/lechuga1.jpeg",
+            "/images/lechuga2.jpg",
+            "/images/lechuga3.jpg"
+        ],
+        "farmer": "Carlos Fernández",
+        "farm": "Cultivos Saludables",
+        "harvestDate": "2024-01-15",
+        "status": "Cosechado",
+        "contact": "4567-8901",
+        "location": "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1801.415880595152!2d-81.1753978564119!3d8.053267782434567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2spa!4v1729499345895!5m2!1sen!2spa"
+    },
+    {
+        "id": 4,
+        "name": "Zanahoria",
+        "price": 2.00,
+        "images": [
+            "/images/zanahoria1.jpeg",
+            "/images/zanahoria2.jpg",
+            "/images/zanahoria3.jpeg",
+            "/images/zanahoria4.jpg"
+        ],
+        "farmer": "Ana Torres",
+        "farm": "Finca El Paraíso",
+        "harvestDate": "2024-01-20",
+        "status": "Cosechado",
+        "contact": "3210-9876",
+        "location": "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3118.9353201206277!2d-81.2869647629025!3d7.981170570467373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2spa!4v1729499472970!5m2!1sen!2spa"
+    },
+    {
+        "id": 5,
+        "name": "Pepino",
+        "price": 1.50,
+        "images": [
+            "/images/pepino1.webp",
+            "/images/pepino2.avif",
+            "/images/pepino3.jpg",
+            "/images/pepino4.webp"
+        ],
+        "farmer": "Luis Ríos",
+        "farm": "Cultivos Verdes",
+        "harvestDate": "2024-01-25",
+        "status": "Cosechado",
+        "contact": "6543-2109",
+        "location": "https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3207.081852669632!2d-82.2890094655514!3d8.38417925929482!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2spa!4v1729497137669!5m2!1sen!2spa"
+    },
+    {
+        "id": 6,
+        "name": "Brócoli",
+        "price": 3.00,
+        "images": [
+            "/images/brocoli1.jpg",
+            "/images/brocoli2.jpeg"
+        ],
+        "farmer": "Fernando López",
+        "farm": "Granja Frutal",
+        "harvestDate": "2024-02-01",
+        "status": "Cosechado",
+        "contact": "5678-4321",
+        "location": "https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3207.081852669632!2d-82.2890094655514!3d8.38417925929482!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2spa!4v1729497137669!5m2!1sen!2spa"
+    },
+    {
+        "id": 7,
+        "name": "Pimiento",
+        "price": 2.80,
+        "images": [
+            "/images/pimiento1.jpg"
+        ],
+        "farmer": "Sofía Ruiz",
+        "farm": "Huerto Orgánico",
+        "harvestDate": "2024-02-05",
+        "status": "Cosechado",
+        "contact": "7890-1234",
+        "location": "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1801.415880595152!2d-81.1753978564119!3d8.053267782434567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2spa!4v1729499345895!5m2!1sen!2spa"
+    },
+    {
+        "id": 8,
+        "name": "Espinaca",
+        "price": 2.50,
+        "images": [
+            "/images/espinaca1.jpg",
+            "/images/espinaca2.jpg"
+        ],
+        "farmer": "Ricardo Torres",
+        "farm": "Finca Verde",
+        "harvestDate": "2024-02-10",
+        "status": "Cosechado",
+        "contact": "3210-5432",
+        "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d900.1731015385491!2d-80.83136980578566!3d8.290270155010546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fae79e1c504b0ab%3A0xb839b116a96d0404!2sFinca%20Buenaventura!5e1!3m2!1sen!2spa!4v1729499041094!5m2!1sen!2spa"
+    },
+    {
+        "id": 9,
+        "name": "Coliflor",
+        "price": 3.50,
+        "images": [
+            "/images/coliflor1.jpeg",
+            "/images/coliflor2.webp",
+            "/images/coliflor3.jpg",
+            "/images/coliflor4.jpeg"
+        ],
+        "farmer": "Claudia Morales",
+        "farm": "Finca Los Huertos",
+        "harvestDate": "2024-02-15",
+        "status": "Cosechado",
+        "contact": "6543-9876",
+        "location": "https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3207.081852669632!2d-82.2890094655514!3d8.38417925929482!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2spa!4v1729497137669!5m2!1sen!2spa"
+    },
+    {
+        "id": 10,
+        "name": "Cebolla",
+        "price": 2.50,
+        "images": [
+            "/images/cebolla1.jpeg",
+            "/images/cebolla2.webp",
+            "/images/cebolla3.jpg",
+            "/images/cebolla4.jpeg"
+        ],
+        "farmer": "Jorge Salazar",
+        "farm": "Granja del Valle",
+        "harvestDate": "2024-02-20",
+        "status": "Cosechado",
+        "contact": "1234-9876",
+        "location": "https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3207.081852669632!2d-82.2890094655514!3d8.38417925929482!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2spa!4v1729497137669!5m2!1sen!2spa"
+    },
+    {
+        "id": 11,
+        "name": "Ajo",
+        "price": 4.00,
+        "images": [
+            "/images/ajo1.jpeg",
+            "/images/ajo2.webp",
+            "/images/ajo3.jpg",
+            "/images/ajo4.jpeg"
+        ],
+        "farmer": "Lucía Castro",
+        "farm": "Cultivo de Ajo",
+        "harvestDate": "2024-02-25",
+        "status": "Cosechado",
+        "contact": "2345-6789",
+        "location": "https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3207.081852669632!2d-82.2890094655514!3d8.38417925929482!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2spa!4v1729497137669!5m2!1sen!2spa"
+    },
+    {
+        "id": 12,
+        "name": "Perejil",
+        "price": 1.20,
+        "images": [
+            "/images/perejil1.jpeg",
+            "/images/perejil2.webp",
+            "/images/perejil3.jpg",
+            "/images/perejil4.jpeg"
+        ],
+        "farmer": "Esteban Medina",
+        "farm": "Finca Verde Claro",
+        "harvestDate": "2024-03-01",
+        "status": "Cosechado",
+        "contact": "7890-6543",
+        "location": "https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3207.081852669632!2d-82.2890094655514!3d8.38417925929482!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2spa!4v1729497137669!5m2!1sen!2spa"
+    },
+    {
+        "id": 13,
+        "name": "Rábano",
+        "price": 1.80,
+        "images": [
+            "/images/rabano1.jpeg",
+            "/images/rabano2.webp",
+            "/images/rabano3.jpg",
+            "/images/rabano4.jpeg"
+        ],
+        "farmer": "Verónica Peña",
+        "farm": "Huerto de Rábanos",
+        "harvestDate": "2024-03-05",
+        "status": "Cosechado",
+        "contact": "4321-6789",
+        "location": "https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3207.081852669632!2d-82.2890094655514!3d8.38417925929482!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2spa!4v1729497137669!5m2!1sen!2spa"
+    },
+    {
+        "id": 14,
+        "name": "Berenjena",
+        "price": 3.20,
+        "images": [
+            "/images/berenjena1.jpeg",
+            "/images/berenjena2.webp",
+            "/images/berenjena3.jpg",
+            "/images/berenjena4.jpeg"
+        ],
+        "farmer": "Mauricio Silva",
+        "farm": "Granja de Berenjenas",
+        "harvestDate": "2024-03-10",
+        "status": "Cosechado",
+        "contact": "8765-4321",
+        "location": "https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3207.081852669632!2d-82.2890094655514!3d8.38417925929482!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2spa!4v1729497137669!5m2!1sen!2spa"
+    },
+    {
+        "id": 15,
+        "name": "Calabacín",
+        "price": 2.50,
+        "images": [
+            "/images/calabacin1.jpeg",
+            "/images/calabacin2.webp",
+            "/images/calabacin3.jpg",
+            "/images/calabacin4.jpeg"
+        ],
+        "farmer": "Isabel Soto",
+        "farm": "Finca de Calabacines",
+        "harvestDate": "2024-03-15",
+        "status": "Cosechado",
+        "contact": "5678-1234",
+        "location": "https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3207.081852669632!2d-82.2890094655514!3d8.38417925929482!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2spa!4v1729497137669!5m2!1sen!2spa"
+    },
+    {
+        "id": 16,
+        "name": "Bok Choy",
+        "price": 2.90,
+        "images": [
+            "/images/bokchoy1.jpeg",
+            "/images/bokchoy2.webp",
+            "/images/bokchoy3.jpg",
+            "/images/bokchoy4.jpeg"
+        ],
+        "farmer": "Roberto Fuentes",
+        "farm": "Cultivo Asiático",
+        "harvestDate": "2024-03-20",
+        "status": "Cosechado",
+        "contact": "4321-8901",
+        "location": "https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3207.081852669632!2d-82.2890094655514!3d8.38417925929482!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2spa!4v1729497137669!5m2!1sen!2spa"
+    },
+    {
+        "id": 17,
+        "name": "Col",
+        "price": 2.00,
+        "images": [
+            "/images/col1.jpeg",
+            "/images/col2.webp",
+            "/images/col3.jpg",
+            "/images/col4.jpeg"
+        ],
+        "farmer": "Esteban Martínez",
+        "farm": "Huerto de Coles",
+        "harvestDate": "2024-03-25",
+        "status": "Cosechado",
+        "contact": "2109-8765",
+        "location": "https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3207.081852669632!2d-82.2890094655514!3d8.38417925929482!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2spa!4v1729497137669!5m2!1sen!2spa"
+    },
+    {
+        "id": 18,
+        "name": "Nabo",
+        "price": 1.90,
+        "images": [
+            "/images/nabo1.jpeg",
+            "/images/nabo2.webp",
+            "/images/nabo3.jpg",
+            "/images/nabo4.jpeg"
+        ],
+        "farmer": "Felipe Morales",
+        "farm": "Granja de Nabos",
+        "harvestDate": "2024-03-30",
+        "status": "Cosechado",
+        "contact": "3456-1234",
+        "location": "https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3207.081852669632!2d-82.2890094655514!3d8.38417925929482!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2spa!4v1729497137669!5m2!1sen!2spa"
+    },
+    {
+        "id": 19,
+        "name": "Pimiento",
+        "price": 2.20,
+        "images": [
+            "/images/pimiento1.jpeg",
+            "/images/pimiento2.webp",
+            "/images/pimiento3.jpg",
+            "/images/pimiento4.jpeg"
+        ],
+        "farmer": "Marta López",
+        "farm": "Cultivo de Pimientos",
+        "harvestDate": "2024-04-05",
+        "status": "Cosechado",
+        "contact": "6789-4321",
+        "location": "https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3207.081852669632!2d-82.2890094655514!3d8.38417925929482!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2spa!4v1729497137669!5m2!1sen!2spa"
+    },
+    {
+        "id": 20,
+        "name": "Calabaza",
+        "price": 3.00,
+        "images": [
+            "/images/calabaza1.jpeg",
+            "/images/calabaza2.webp",
+            "/images/calabaza3.jpg",
+            "/images/calabaza4.jpeg"
+        ],
+        "farmer": "Gonzalo Ruiz",
+        "farm": "Granja de Calabazas",
+        "harvestDate": "2024-04-10",
+        "status": "Cosechado",
+        "contact": "8901-2345",
+        "location": "https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3207.081852669632!2d-82.2890094655514!3d8.38417925929482!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2spa!4v1729497137669!5m2!1sen!2spa"
+    },{
+        "id": 21,
+        "name": "Brócoli",
+        "price": 3.50,
+        "images": [
+            "/images/brocoli1.jpeg",
+            "/images/brocoli2.webp",
+            "/images/brocoli3.jpg",
+            "/images/brocoli4.jpeg"
+        ],
+        "farmer": "Sofía Ramos",
+        "farm": "Finca de Brócolis",
+        "harvestDate": "2024-04-15",
+        "status": "Cosechado",
+        "contact": "5432-1234",
+        "location": "https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3207.081852669632!2d-82.2890094655514!3d8.38417925929482!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2spa!4v1729497137669!5m2!1sen!2spa"
+    },
+    {
+        "id": 22,
+        "name": "Espinaca",
+        "price": 2.70,
+        "images": [
+            "/images/espinaca1.jpeg",
+            "/images/espinaca2.webp",
+            "/images/espinaca3.jpg",
+            "/images/espinaca4.jpeg"
+        ],
+        "farmer": "Carlos Núñez",
+        "farm": "Huerto de Espinacas",
+        "harvestDate": "2024-04-20",
+        "status": "Cosechado",
+        "contact": "6543-2109",
+        "location": "https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3207.081852669632!2d-82.2890094655514!3d8.38417925929482!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2spa!4v1729497137669!5m2!1sen!2spa"
+    },
+    {
+        "id": 23,
+        "name": "Coliflor",
+        "price": 3.00,
+        "images": [
+            "/images/coliflor1.jpeg",
+            "/images/coliflor2.webp",
+            "/images/coliflor3.jpg",
+            "/images/coliflor4.jpeg"
+        ],
+        "farmer": "Martín López",
+        "farm": "Finca de Coliflores",
+        "harvestDate": "2024-04-25",
+        "status": "Cosechado",
+        "contact": "7890-1234",
+        "location": "https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3207.081852669632!2d-82.2890094655514!3d8.38417925929482!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2spa!4v1729497137669!5m2!1sen!2spa"
+    },
+    {
+        "id": 24,
+        "name": "Zanahoria",
+        "price": 2.30,
+        "images": [
+            "/images/zanahoria1.jpeg",
+            "/images/zanahoria2.webp",
+            "/images/zanahoria3.jpg",
+            "/images/zanahoria4.jpeg"
+        ],
+        "farmer": "Claudia Paredes",
+        "farm": "Granja de Zanahorias",
+        "harvestDate": "2024-04-30",
+        "status": "Cosechado",
+        "contact": "3456-7890",
+        "location": "https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3207.081852669632!2d-82.2890094655514!3d8.38417925929482!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2spa!4v1729497137669!5m2!1sen!2spa"
+    },
+    {
+        "id": 25,
+        "name": "Chícharo",
+        "price": 1.50,
+        "images": [
+            "/images/chicharo1.jpeg",
+            "/images/chicharo2.webp",
+            "/images/chicharo3.jpg",
+            "/images/chicharo4.jpeg"
+        ],
+        "farmer": "Nicolás Torres",
+        "farm": "Cultivo de Chícharos",
+        "harvestDate": "2024-05-05",
+        "status": "Cosechado",
+        "contact": "5678-4321",
+        "location": "https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3207.081852669632!2d-82.2890094655514!3d8.38417925929482!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2spa!4v1729497137669!5m2!1sen!2spa"
+    }
+]
