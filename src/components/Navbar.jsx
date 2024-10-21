@@ -4,16 +4,16 @@ const navbar = () => {
 
 
   return (
-    <nav className="backgroundColor: to-black text-white flex justify-between">
+    <nav className="bg-black text-white flex justify-between">
     
-      <div className="nav-logo">
+      <div className="nav-logo flex flex-row flex-nowrap items-center m-3 ml-5" >
         <a href="/">Logo</a>
       </div>
 
-      <div className="flex flex-row flex-nowrap items-center">
-        <a href="/">Inicio</a>
-        <a href="/about">Sobre Nosotros</a>
-        <a href="/contact">Contacto</a>
+      <div className="flex flex-row flex-nowrap items-center mr-10">
+        <a className="my-2 mx-2 bg-sky-700 px-3 py-1 rounded-md" href="/">Inicio</a>
+        <a className="my-2 mx-2 bg-sky-700 px-3 py-1 rounded-md" href="/about">Nosotros</a>
+        <a className="my-2 mx-2 bg-sky-700 px-3 py-1 rounded-md" href="/contact">Contacto</a>
       </div>
     
     </nav>
