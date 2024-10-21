@@ -1,10 +1,15 @@
-import ProductSlider from "./components/product/ProductSlider";
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import Product from "./pages/product/Product";
+import Home from "./pages/home/Home"
 
 export default function App() {
   return (
-    <>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-      <ProductSlider />
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home/>}></Route>
+        <Route path="/product" element={<Product />}></Route>
+      </Routes>
+    </Router>
   );
 }

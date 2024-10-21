@@ -3,16 +3,10 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-const ProductSlider = () => {
-  const images = [
-    "https://via.placeholder.com/400x300?text=Image+1",
-    "https://via.placeholder.com/400x300?text=Image+2",
-    "https://via.placeholder.com/400x300?text=Image+3",
-    "https://via.placeholder.com/400x300?text=Image+4",
-  ];
+const ProductSlider = ({images}) => {
 
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
@@ -32,7 +26,7 @@ const ProductSlider = () => {
             <img
               src={image}
               alt={`Slide ${index + 1}`}
-              style={{ width: "100%" }}
+              className="w-full bg-cover h-72"
             />
           </div>
         ))}
