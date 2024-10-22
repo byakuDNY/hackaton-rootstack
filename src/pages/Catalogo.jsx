@@ -23,7 +23,13 @@ const Catalogo = () => {
   return (
     <div>
       <div><Navbar /></div>
-      <div className="flex flex-wrap gap-x-5 gap-y-5 justify-center p-4">
+      <div>
+        <h1 className="relative flex justify-center items-center p-10 w-full text-5xl text-white font-bold h-[300px] bg-[url('/images/bg2.jpg')] bg-cover bg-center">
+          <div className="absolute inset-0 bg-black opacity-50"></div>
+          <span className="relative z-10">Catálogo</span>
+        </h1>
+      </div>
+      <div className="flex flex-wrap gap-x-5 gap-y-5 justify-center p-4 pt-8">
       {products.map(product => (
         <ProductCard key={product.id} product={product} />
       ))}
