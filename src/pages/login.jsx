@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { toast } from "react-hot-toast";
 import { useAuthContext } from "../AuthContext";
+import BgImage from "../components/BgImage";
 
 const Login = () => {
   const [username, setusername] = useState("");
@@ -32,68 +33,82 @@ const Login = () => {
   };
 
   return (
-    <div>
-      <div>
-        <h1 className="text-6xl text-center p-10 font-extrabold font-outline-2">
+    <div className="min-h-screen flex items-center justify-center">
+      <BgImage bgImage={"/login-bg.jpg"} />
+      <div className="w-full max-w-md bg-yellow-100 p-8 rounded-lg shadow-lg">
+        <h1 className="text-4xl text-center font-bold mb-8 text-green-900">
           Inicio de Sesión
         </h1>
-        <div className="flex justify-center items-center flex-col">
-          <form onSubmit={handleLogin} className="sm:w-1/3 p-4 mt-10">
-            <div className="mb-6">
-              <label
-                className="block font-outline-2 text-xl font-extrabold mb-2"
-                htmlFor="usuario"
-              >
-                Nombre de usuario
-              </label>
-              <div className="flex items-center focus-within:text-gray-700">
-                <img src="user-icon.svg" alt="user-icon" className=" w-5 h-5" />
-                <input
-                  id="usuario"
-                  type="text"
-                  placeholder="Escribe tu nombre de Usuario"
-                  className="w-full py-2 pl-10 pr-3 bg-transparent border-b border-white focus:outline-none"
-                  value={username}
-                  onChange={(e) => setusername(e.target.value)}
-                />
-              </div>
-            </div>
-            <div className="mb-6">
-              <label
-                className="block  font-outline-2 text-xl font-extrabold mb-2"
-                htmlFor="contraseña"
-              >
-                Contraseña
-              </label>
-              <div className="flex items-center text-gray-900 focus-within:text-gray-700">
-                <img src="lock-icon.svg" alt="user-icon" className=" w-6 h-6" />
-                <input
-                  id="contraseña"
-                  type="password"
-                  placeholder="Escribe tu contraseña"
-                  className="w-full py-2 pl-10 pr-3 bg-transparent border-b border-white focus:outline-none"
-                  value={password}
-                  onChange={(e) => setPassword(e.target.value)}
-                />
-              </div>
-            </div>
-            <div className="flex justify-center p-5">
-              <button
-                className="bg-amber-500 hover:bg-amber-600  text-2xl font-extrabold py-2 px-4 rounded font-outline-2 focus:outline-white"
-                type="submit"
-              >
-                INICIAR SESIÓN
-              </button>
-            </div>
-          </form>
-          <div className="p-10">
-            <Link
-              className=" text-xl font-extrabold py-2 px-4 hover:text-gray-200 font-outline-2 focus:outline-white"
-              to={"/signup"}
+        <form onSubmit={handleLogin} className="space-y-6">
+          {/* Username Input */}
+          <div>
+            <label
+              className="block text-lg font-bold mb-2 text-green-800"
+              htmlFor="usuario"
             >
-              Registrarme
-            </Link>
+              Nombre de usuario
+            </label>
+            <div className="relative">
+              <img
+                src="user-icon.svg"
+                alt="user-icon"
+                className="absolute w-5 h-5 left-2 top-2.5 text-gray-500"
+              />
+              <input
+                id="usuario"
+                type="text"
+                placeholder="Escribe tu nombre de Usuario"
+                className="w-full py-2 pl-10 pr-3 border-b border-green-500 bg-transparent focus:outline-none focus:border-green-700 transition duration-300"
+                value={username}
+                onChange={(e) => setusername(e.target.value)}
+              />
+            </div>
           </div>
+
+          {/* Password Input */}
+          <div>
+            <label
+              className="block text-lg font-bold mb-2 text-green-800"
+              htmlFor="contraseña"
+            >
+              Contraseña
+            </label>
+            <div className="relative">
+              <img
+                src="lock-icon.svg"
+                alt="lock-icon"
+                className="absolute w-5 h-5 left-2 top-2.5 text-gray-500"
+              />
+              <input
+                id="contraseña"
+                type="password"
+                placeholder="Escribe tu contraseña"
+                className="w-full py-2 pl-10 pr-3 border-b border-green-500 bg-transparent focus:outline-none focus:border-green-700 transition duration-300"
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+              />
+            </div>
+          </div>
+
+          {/* Submit Button */}
+          <div className="text-center">
+            <button
+              className="w-full bg-yellow-500 hover:bg-yellow-600 text-white py-2 px-4 rounded-full font-semibold transition duration-300"
+              type="submit"
+            >
+              INICIAR SESIÓN
+            </button>
+          </div>
+        </form>
+
+        {/* Link to Signup */}
+        <div className="text-center pt-5">
+          <Link
+            className="text-green-800 hover:text-green-600 font-bold"
+            to={"/signup"}
+          >
+            Registrarme
+          </Link>
         </div>
       </div>
     </div>

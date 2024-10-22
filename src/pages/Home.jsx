@@ -35,7 +35,7 @@ const Home = () => {
     <div>
       <Navbar />
       <section
-        className="relative bg-cover bg-center h-[500px] text-white"
+        className="relative bg-cover bg-center h-[700px] text-white"
         style={{ backgroundImage: "url('/hero-bg.jpg')" }}
       >
         <div className="absolute inset-0 bg-black opacity-50"></div>
@@ -43,10 +43,9 @@ const Home = () => {
           <h1 className="text-4xl font-bold mb-4">
             ¡Bienvenido a Agro Market!
           </h1>
-          <p className="text-xl mb-6">
-            Frescura, calidad y sostenibilidad en cada compra, directamente de
-            la tierra local a tu mesa.
-          </p>
+          <blockquote className="text-xl mb-6 italic">
+            Frescura y sostenibilidad en cada compra
+          </blockquote>
           <Link
             to="/catalogo"
             className="bg-yellow-500 hover:bg-yellow-600 text-white py-2 px-6 rounded-full font-semibold transition duration-300"
