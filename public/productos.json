@@ -297,23 +297,6 @@
         "location": "https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3207.081852669632!2d-82.2890094655514!3d8.38417925929482!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2spa!4v1729497137669!5m2!1sen!2spa"
     },
     {
-        "id": 19,
-        "name": "Pimiento",
-        "price": 2.20,
-        "images": [
-            "/images/pimiento1.jpeg",
-            "/images/pimiento2.webp",
-            "/images/pimiento3.jpg",
-            "/images/pimiento4.jpeg"
-        ],
-        "farmer": "Marta López",
-        "farm": "Cultivo de Pimientos",
-        "harvestDate": "2024-04-05",
-        "status": "Cosechado",
-        "contact": "6789-4321",
-        "location": "https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3207.081852669632!2d-82.2890094655514!3d8.38417925929482!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2spa!4v1729497137669!5m2!1sen!2spa"
-    },
-    {
         "id": 20,
         "name": "Calabaza",
         "price": 3.00,
@@ -328,90 +311,6 @@
         "harvestDate": "2024-04-10",
         "status": "Cosechado",
         "contact": "8901-2345",
-        "location": "https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3207.081852669632!2d-82.2890094655514!3d8.38417925929482!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2spa!4v1729497137669!5m2!1sen!2spa"
-    },{
-        "id": 21,
-        "name": "Brócoli",
-        "price": 3.50,
-        "images": [
-            "/images/brocoli1.jpeg",
-            "/images/brocoli2.webp",
-            "/images/brocoli3.jpg",
-            "/images/brocoli4.jpeg"
-        ],
-        "farmer": "Sofía Ramos",
-        "farm": "Finca de Brócolis",
-        "harvestDate": "2024-04-15",
-        "status": "Cosechado",
-        "contact": "5432-1234",
-        "location": "https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3207.081852669632!2d-82.2890094655514!3d8.38417925929482!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2spa!4v1729497137669!5m2!1sen!2spa"
-    },
-    {
-        "id": 22,
-        "name": "Espinaca",
-        "price": 2.70,
-        "images": [
-            "/images/espinaca1.jpeg",
-            "/images/espinaca2.webp",
-            "/images/espinaca3.jpg",
-            "/images/espinaca4.jpeg"
-        ],
-        "farmer": "Carlos Núñez",
-        "farm": "Huerto de Espinacas",
-        "harvestDate": "2024-04-20",
-        "status": "Cosechado",
-        "contact": "6543-2109",
-        "location": "https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3207.081852669632!2d-82.2890094655514!3d8.38417925929482!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2spa!4v1729497137669!5m2!1sen!2spa"
-    },
-    {
-        "id": 23,
-        "name": "Coliflor",
-        "price": 3.00,
-        "images": [
-            "/images/coliflor1.jpeg",
-            "/images/coliflor2.webp",
-            "/images/coliflor3.jpg",
-            "/images/coliflor4.jpeg"
-        ],
-        "farmer": "Martín López",
-        "farm": "Finca de Coliflores",
-        "harvestDate": "2024-04-25",
-        "status": "Cosechado",
-        "contact": "7890-1234",
-        "location": "https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3207.081852669632!2d-82.2890094655514!3d8.38417925929482!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2spa!4v1729497137669!5m2!1sen!2spa"
-    },
-    {
-        "id": 24,
-        "name": "Zanahoria",
-        "price": 2.30,
-        "images": [
-            "/images/zanahoria1.jpeg",
-            "/images/zanahoria2.webp",
-            "/images/zanahoria3.jpg",
-            "/images/zanahoria4.jpeg"
-        ],
-        "farmer": "Claudia Paredes",
-        "farm": "Granja de Zanahorias",
-        "harvestDate": "2024-04-30",
-        "status": "Cosechado",
-        "contact": "3456-7890",
-        "location": "https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3207.081852669632!2d-82.2890094655514!3d8.38417925929482!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2spa!4v1729497137669!5m2!1sen!2spa"
-    },
-    {
-        "id": 25,
-        "name": "Chícharo",
-        "price": 1.50,
-        "images": [
-            "/images/chicharo1.jpeg",
-            "/images/chicharo2.webp",
-            "/images/chicharo3.jpg",
-            "/images/chicharo4.jpeg"
-        ],
-        "farmer": "Nicolás Torres",
-        "farm": "Cultivo de Chícharos",
-        "harvestDate": "2024-05-05",
-        "status": "Cosechado",
-        "contact": "5678-4321",
         "location": "https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3207.081852669632!2d-82.2890094655514!3d8.38417925929482!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2spa!4v1729497137669!5m2!1sen!2spa"
     }
 ]
