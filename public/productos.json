@@ -131,10 +131,10 @@
         "name": "Coliflor",
         "price": 3.50,
         "images": [
-            "/images/coliflor1.jpeg",
-            "/images/coliflor2.webp",
+            "/images/coliflor1.jpg",
+            "/images/coliflor2.jpg",
             "/images/coliflor3.jpg",
-            "/images/coliflor4.jpeg"
+            "/images/coliflor4.jpg"
         ],
         "farmer": "Claudia Morales",
         "farm": "Finca Los Huertos",
@@ -148,10 +148,10 @@
         "name": "Cebolla",
         "price": 2.50,
         "images": [
-            "/images/cebolla1.jpeg",
-            "/images/cebolla2.webp",
+            "/images/cebolla1.jpg",
+            "/images/cebolla2.jpg",
             "/images/cebolla3.jpg",
-            "/images/cebolla4.jpeg"
+            "/images/cebolla4.jpg"
         ],
         "farmer": "Jorge Salazar",
         "farm": "Granja del Valle",
@@ -165,10 +165,10 @@
         "name": "Ajo",
         "price": 4.00,
         "images": [
-            "/images/ajo1.jpeg",
-            "/images/ajo2.webp",
+            "/images/ajo1.png",
+            "/images/ajo2.jpg",
             "/images/ajo3.jpg",
-            "/images/ajo4.jpeg"
+            "/images/ajo4.jpg"
         ],
         "farmer": "Lucía Castro",
         "farm": "Cultivo de Ajo",
@@ -182,10 +182,8 @@
         "name": "Perejil",
         "price": 1.20,
         "images": [
-            "/images/perejil1.jpeg",
-            "/images/perejil2.webp",
-            "/images/perejil3.jpg",
-            "/images/perejil4.jpeg"
+            "/images/perejil2.jpg",
+            "/images/perejil4.jpg"
         ],
         "farmer": "Esteban Medina",
         "farm": "Finca Verde Claro",
@@ -199,10 +197,9 @@
         "name": "Rábano",
         "price": 1.80,
         "images": [
-            "/images/rabano1.jpeg",
-            "/images/rabano2.webp",
-            "/images/rabano3.jpg",
-            "/images/rabano4.jpeg"
+            "/images/rabano1.jpg",
+            "/images/rabano2.jpg",
+            "/images/rabano4.jpg"
         ],
         "farmer": "Verónica Peña",
         "farm": "Huerto de Rábanos",
@@ -216,10 +213,10 @@
         "name": "Berenjena",
         "price": 3.20,
         "images": [
-            "/images/berenjena1.jpeg",
-            "/images/berenjena2.webp",
+            "/images/berenjena1.jpg",
+            "/images/berenjena2.jpg",
             "/images/berenjena3.jpg",
-            "/images/berenjena4.jpeg"
+            "/images/berenjena4.jpg"
         ],
         "farmer": "Mauricio Silva",
         "farm": "Granja de Berenjenas",
@@ -233,10 +230,9 @@
         "name": "Calabacín",
         "price": 2.50,
         "images": [
-            "/images/calabacin1.jpeg",
-            "/images/calabacin2.webp",
-            "/images/calabacin3.jpg",
-            "/images/calabacin4.jpeg"
+            "/images/calabacin1.jpg",
+            "/images/calabacin2.jpg",
+            "/images/calabacin3.jpg"
         ],
         "farmer": "Isabel Soto",
         "farm": "Finca de Calabacines",
@@ -250,10 +246,10 @@
         "name": "Bok Choy",
         "price": 2.90,
         "images": [
-            "/images/bokchoy1.jpeg",
-            "/images/bokchoy2.webp",
-            "/images/bokchoy3.jpg",
-            "/images/bokchoy4.jpeg"
+            "/images/bokchoy1.jpg",
+            "/images/bokchoy2.jpg",
+            "/images/bokchoy3.png",
+            "/images/bokchoy4.jpg"
         ],
         "farmer": "Roberto Fuentes",
         "farm": "Cultivo Asiático",
@@ -267,10 +263,9 @@
         "name": "Col",
         "price": 2.00,
         "images": [
-            "/images/col1.jpeg",
-            "/images/col2.webp",
+            "/images/col2.jpg",
             "/images/col3.jpg",
-            "/images/col4.jpeg"
+            "/images/col4.jpg"
         ],
         "farmer": "Esteban Martínez",
         "farm": "Huerto de Coles",
@@ -284,10 +279,9 @@
         "name": "Nabo",
         "price": 1.90,
         "images": [
-            "/images/nabo1.jpeg",
-            "/images/nabo2.webp",
-            "/images/nabo3.jpg",
-            "/images/nabo4.jpeg"
+            "/images/nabo1.jpg",
+            "/images/nabo2.jpg",
+            "/images/nabo3.jpg"
         ],
         "farmer": "Felipe Morales",
         "farm": "Granja de Nabos",
@@ -301,10 +295,10 @@
         "name": "Calabaza",
         "price": 3.00,
         "images": [
-            "/images/calabaza1.jpeg",
-            "/images/calabaza2.webp",
-            "/images/calabaza3.jpg",
-            "/images/calabaza4.jpeg"
+            "/images/calabaza1.jpg",
+            "/images/calabaza2.jpg",
+            "/images/calabaza3.png",
+            "/images/calabaza4.jpg"
         ],
         "farmer": "Gonzalo Ruiz",
         "farm": "Granja de Calabazas",
