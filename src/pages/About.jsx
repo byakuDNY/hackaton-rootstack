@@ -1,54 +1,52 @@
-import React from 'react'
+import React from 'react';
 import Navbar from "../components/Navbar";
+import Integrante from '../components/Integrante';
 
 const About = () => {
+  const integrantes = [
+    {
+      name: "Enrique Wen",
+      image: "/images/enrique.jpg",
+      linkedin: "https://www.linkedin.com/in/enrique-wen-chen-b7a023222/",
+      github: "https://github.com/Orzy895"
+    },
+    {
+      name: "Roberto Luo",
+      image: "/images/roberto.jpg",
+      linkedin: "https://www.linkedin.com/in/roberto-luo-1314a7215/",
+      github: "https://github.com/byakuDNY"
+    },
+    {
+      name: "Carlos Avilés",
+      image: "/images/carlos.jpg",
+      linkedin: "",
+      github: "https://github.com/Sayo-420"
+    }
+  ];
+
   return (
-    <div className='bg-lime-300'>
-      <div><Navbar /></div>
-      
-      <div className='text-black flex justify-evenly my-10'>
-        <div className='border-4 border-lime-600 rounded-xl flex items-center flex-col bg-lime-400'>
-          <img className='m-2' src="" alt="Foto de perfil" />
-          <h1 className='text-2xl m-2'>Roberto Luo</h1>
-          <div><p className='text-lg m-2'>
-            Edad: 21<br />
-            Numero telefonico: 6520-0235<br />
-            Correo: <br />
-            Cualidades: <br />
-            Conocimientos: <br />
-
-          </p></div>
-        </div>
-        <div className='border-4 border-lime-600 rounded-xl flex items-center flex-col bg-lime-400'>
-          <img className='m-2' src="" alt="Foto de perfil" />
-          <h1 className='text-2xl m-2'>Enrique Wen</h1>
-          <div><p className='text-lg m-2'>
-            Edad: 21<br />
-            Numero telefonico: 6740-5585<br />
-            Correo: <br />
-            Cualidades: <br />
-            Conocimientos: <br />
-
-          </p></div>
-        </div>
-        <div className='border-4 border-lime-600 rounded-xl flex items-center flex-col bg-lime-400'>
-          <img className='m-2' src="" alt="Foto de perfil" />
-          <h1 className='text-2xl m-2'>Carlos Avilés</h1>
-          <div><p className='text-lg m-2'>
-            Edad: 20<br />
-            Numero telefonico: 6549-8261<br />
-            Correo: carlosavilesia@gmal.com<br />
-            Cualidades: <br />
-            Conocimientos: <br />
-
-          </p></div>
+    <div>
+      <Navbar />
+      <div>
+        <h1 className="relative flex justify-center items-center p-10 w-full text-5xl text-white font-bold h-[300px] bg-[url('/images/bg.jpg')] bg-cover bg-center">
+          <div className="absolute inset-0 bg-black opacity-50"></div>
+          <span className="relative z-10">Grupo NULL</span>
+        </h1>
+      </div>
+      <div className='p-10 pt-12 text-center gap-y-5 flex flex-col'>
+        <h1 className='text-center text-xl'>Somos un grupo de estudiantes de Desarrollo de Software con una pasión por el desarrollo web</h1>
+        <p className='text-lg'>Conoce el equipo detrás del grupo NULL</p>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
+          {integrantes.map((integrante, index) => (
+            <Integrante 
+              key={index} 
+              Integrante={integrante} 
+            />
+          ))}
         </div>
       </div>
-
     </div>
-    
-
   )
 }
 
-export default About
+export default About;
