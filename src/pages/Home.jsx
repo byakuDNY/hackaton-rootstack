@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Navbar from "../components/Navbar";
 import ProductCard from "../components/product/ProductCard";
 import { Link } from "react-router-dom";
+import toast from "react-hot-toast";
 
 const Home = () => {
   const [products, setProducts] = useState([]);
@@ -24,7 +25,7 @@ const Home = () => {
           .slice(0, 5);
         setProducts(productosAleatorio);
       } catch (error) {
-        console.error("Error obteniendo productos: ", error);
+        toast.error("Error obteniendo productos: ", error);
       }
     };
 
