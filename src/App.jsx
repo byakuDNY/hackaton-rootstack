@@ -6,6 +6,7 @@ import Login from "./pages/login";
 import { Toaster } from "react-hot-toast";
 import Catalogo from "./pages/Catalogo";
 import About from "./pages/About";
+import Cart from "./pages/Cart";
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
         <Route path="/product/:id" element={<Product />} />
         <Route path="/catalogo" element={<Catalogo />} />
         <Route path="/about" element={<About />} />
+        <Route path="/cart" element={<Cart />} />
       </Routes>
       <Toaster />
     </BrowserRouter>
