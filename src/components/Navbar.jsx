@@ -1,10 +1,11 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useAuthContext } from "../AuthContext";
 import { useState } from "react";
 
 const Navbar = () => {
   const { authUser, setAuthUser } = useAuthContext();
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const navigate = useNavigate();
 
   const toggleDropdown = () => {
     setIsDropdownOpen(!isDropdownOpen);
@@ -13,6 +14,7 @@ const Navbar = () => {
   const handleLogout = () => {
     localStorage.removeItem("token");
     setAuthUser(null);
+    navigate("/login");
   };
 
   return (
@@ -61,16 +63,14 @@ const Navbar = () => {
           </div>
 
           {isDropdownOpen && (
-            <ul className="absolute top-8 right-0 mt-2 w-40 bg-white border border-gray-300 rounded-md shadow-lg py-1 text-green-900">
+            <ul className="absolute z-10 top-8 right-0 mt-2 w-40 bg-white border border-gray-300 rounded-md shadow-lg py-1 text-green-900">
               {authUser ? (
-                <>
-                  <li
-                    onClick={handleLogout}
-                    className="px-4 py-2 cursor-pointer hover:bg-gray-100"
-                  >
-                    Cerrar Sesión
-                  </li>
-                </>
+                <li
+                  onClick={handleLogout}
+                  className="px-4 py-2 cursor-pointer hover:bg-gray-100"
+                >
+                  Cerrar Sesión
+                </li>
               ) : (
                 <Link
                   to={"/login"}
