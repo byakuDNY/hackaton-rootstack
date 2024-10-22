@@ -10,10 +10,10 @@ const BgImage = ({ bgImage }) => {
       setBackgroundPosition({ x, y });
     };
 
-    updateBackgroundPosition(); // Initial call to set random position
-    const interval = setInterval(updateBackgroundPosition, 5000); // Update every 5 seconds
+    updateBackgroundPosition();
+    const interval = setInterval(updateBackgroundPosition, 5000);
 
-    return () => clearInterval(interval); // Cleanup on component unmount
+    return () => clearInterval(interval);
   }, []);
 
   return (
