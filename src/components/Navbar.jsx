@@ -49,7 +49,7 @@ const Navbar = () => {
             className="flex items-center space-x-2 text-white hover:text-yellow-300 focus:outline-none"
             onClick={toggleDropdown}
           >
-            <img src="/user-icon.svg" alt="user-icon" className="w-7 h-7" />
+            <img src="/user-icon.svg" alt="user-icon" className="w-9 h-auto" />
             <span className="text-lg">
               {authUser ? authUser.username : "Usuario"}
             </span>
