@@ -44,16 +44,21 @@ const Navbar = () => {
             </Link>
           </li>
         </ul>
-        <div className="relative">
-          <button
-            className="flex items-center space-x-2 text-white hover:text-yellow-300 focus:outline-none"
-            onClick={toggleDropdown}
-          >
-            <img src="/user-icon.svg" alt="user-icon" className="w-9 h-auto" />
-            <span className="text-lg">
-              {authUser ? authUser.username : "Usuario"}
-            </span>
-          </button>
+        <div className="relative z-10">
+          <div className="flex gap-x-10">
+            <a href="/cart">
+              <img src="/cart.svg" alt="" className=" w-9 h-auto" />
+            </a>
+            <button
+              className="flex items-center space-x-2 text-white hover:text-yellow-300 focus:outline-none"
+              onClick={toggleDropdown}
+            >
+              <img src="/user-icon.svg" alt="user-icon" className="w-9 h-auto" />
+              <span className="text-lg">
+                {authUser ? authUser.username : "Usuario"}
+              </span>
+            </button>
+          </div>
 
           {isDropdownOpen && (
             <ul className="absolute top-8 right-0 mt-2 w-40 bg-white border border-gray-300 rounded-md shadow-lg py-1 text-green-900">
