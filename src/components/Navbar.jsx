@@ -20,7 +20,7 @@ const Navbar = () => {
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-white font-bold text-2xl">
           <Link to={"/"} className="flex justify-center items-center">
-            <img src="logo.svg" alt="logo" className="w-12 h-12" />
+            <img src="/logo.svg" alt="logo" className="w-12 h-12" />
             Agro Market
           </Link>
         </div>
@@ -49,8 +49,10 @@ const Navbar = () => {
             className="flex items-center space-x-2 text-white hover:text-yellow-300 focus:outline-none"
             onClick={toggleDropdown}
           >
-            <img src="user-icon.svg" alt="user-icon" className="w-7 h-7" />
-            <span>{authUser ? authUser.username : "Usuario"}</span>
+            <img src="/user-icon.svg" alt="user-icon" className="w-7 h-7" />
+            <span className="text-lg">
+              {authUser ? authUser.username : "Usuario"}
+            </span>
           </button>
 
           {isDropdownOpen && (
